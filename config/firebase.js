@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
+import { getDatabase } from "firebase/database";
 import Constants from 'expo-constants';
 
 // add firebase config
@@ -18,4 +19,8 @@ initializeApp(firebaseConfig);
 // initialize auth
 const auth = getAuth();
 
+// initialize database
+const database = getDatabase();
+
 export { auth };
+export { database };

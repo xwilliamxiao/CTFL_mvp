@@ -7,11 +7,9 @@ import { AuthenticatedUserProvider } from './providers';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import BottomTab from './screens/BottomTab';
-// import LoginScreen from './screens/LoginScreen';
-// import HomeScreen from './screens/HomeScreen';
-
 import { LoginScreen } from './screens/LoginScreen';
 import { HomeScreen } from './screens/HomeScreen';
+import { AthleteScreen } from './screens/AthleteScreen';
 
 const Stack = createNativeStackNavigator();
 
